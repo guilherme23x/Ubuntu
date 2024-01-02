@@ -1,0 +1,146 @@
+body::-webkit-scrollbar {
+    width: 5px;
+    background-color: #141414;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(59, 59, 59, 0.897);
+    border-radius: 20px;
+    border: 3px solid rgb(61, 61, 61);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: rgb(60, 19, 97);
+    background: linear-gradient(90deg, rgba(60, 19, 97, 1) 0%, rgba(255, 74, 0, 1) 100%);
+}
+
+/* Navbar */
+
+.navbar{
+    background-color: rgba(54, 54, 54, 0.377);
+    width: 90%;
+    padding: 1.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+    border: 0px solid;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 20px;
+    transition: 0.9s;
+}
+
+.link:hover{
+    color: rgb(158, 158, 158);
+}
+
+.login{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    left: 15%;
+    background-color: transparent;
+    padding: 1%;
+    transition: 0.9s;
+    border-radius: 15px;
+}
+
+.login:hover{
+    background-color: #ff480093;
+}
+
+/* Conteudo */
+
+.titulo{
+    color: white;
+    text-align: center;
+    margin-top: 4%;
+    font-size: 40px;    
+}
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 25%;
+    margin-top: 2%;
+    object-fit: blur(10%);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+    padding: 2%;
+    text-align: center;
+    height: 350px;
+    margin-bottom: 2%;
+}
+
+.titulo-download{
+    color: white;
+    font-size: 25px;
+}
+
+.download{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    background-color: transparent;
+    padding: 5%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.9s;
+    border-radius: 20px;
+    margin-top: 2%;
+    top: 5%;
+    display: block;
+}
+
+.download:hover{
+    background-color: #9900ff62;
+}
+
+.titulo-requisitos{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    color: rgba(255, 255, 255, 0.671);
+}
+
+
+.card-requisitos{
+    width: 50%;
+    margin-top: 2%;
+    object-fit: blur(10%);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+    padding: 2%;
+    text-align: center;
+    height: 350px;
+    margin-bottom: 2%;
+}
